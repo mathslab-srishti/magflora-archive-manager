@@ -1,1 +1,38 @@
-magflora-archive-database
+magflora-archive-dbscripts
+
+To contribute, clone the repository and self-assign active and open issues; create a new branch from the most recent commit point on `main` branch and name your branch as `<btype>-<your_github_handle>-<issue_short_title>`. 
+
+Possible values of `<btype>`: `[feature, bug, hotfix]`
+Use `<issue_short_title>` as provided in the corresponding issue.
+
+Protected branches: `main, stable`
+`main   : active development branch`
+`stable : deployed instance`
+
+DO NOT add any third-party packages.
+
+Work on your branch and send a Pull Request once done.
+
+Building locally for development:
+
+```
+git clone https://github.com/emlab-srishti/magflora-archive-dbscripts/
+cd magflora-archive-dbscripts
+```
+
+Roadmap
+-------
+
+16 | 17 | 18 | 19 | 20 | 21 | 22
+01 | 01 | 04 | 04 | 
+   | 02 | 02 | 03 |
+             | 05 | 05 |
+                  | 06 | 06 |
+
+>> 01 Table Schema - Draft table schemas
+.. 02 Create tables - Create tables in the database, and map them with foreign keys
+   03 Upload dummy data - Create and upload dummy data on the tables 
+   04 Draft example queries
+   05 Develop SQL queries from example
+   06 Write unit tests
+   07 Release v1
