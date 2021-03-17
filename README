@@ -16,7 +16,7 @@ Work on your branch and send a Pull Request once done.
 Building locally for development:
 
 ```
-git clone https://github.com/emlab-srishti/magflora-archive-dbscripts/
+git clone https://github.com/emlab-srishti/magflora-archive-manager/
 cd magflora-archive-manager
 ```
 
