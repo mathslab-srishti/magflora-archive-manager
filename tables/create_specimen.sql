@@ -1,0 +1,18 @@
+CREATE TABLE specimen(
+     id INT,
+     specimen_type VARCHAR(50),
+     plant_id VARCHAR(50),
+     location VARCHAR(512),
+     preservation_type VARCHAR(225),
+     original_dimension VARCHAR(225),
+     color_data VARCHAR(50),
+     collected_from VARCHAR(50),
+     collected_by VARCHAR(50),
+     collected_on VARCHAR(50),
+     extracted_by VARCHAR(50),
+     extracted_on VARCHAR(50),
+     archived_by  VARCHAR(50),
+     archived_on  VARCHAR(50),
+     venation_type VARCHAR(50),
+     PRIMARY KEY (id),
+     FOREIGN KEY (id) REFERENCES plant(id));
