@@ -33,9 +33,9 @@ Roadmap
                   | 06 | 06 |
 
    01 Table Schema - Draft table schemas
->> 02 Create tables - Create tables in the database, and map them with foreign keys
+   02 Create tables - Create tables in the database, and map them with foreign keys
 .. 03 Upload dummy data - Create and upload dummy data on the tables 
 .. 04 Draft example queries
-   05 Develop SQL queries from example
-   06 Write unit tests
+.. 05 Develop SQL queries from example
+.. 06 Write unit tests
    07 Release v1
