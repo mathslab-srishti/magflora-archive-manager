@@ -1,0 +1,1 @@
+mysql -h <server_id> -u <username> -p magflora
